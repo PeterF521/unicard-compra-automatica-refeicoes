@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "outDir": "./dist",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules/"
+    ]
+}
