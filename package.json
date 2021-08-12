@@ -6,9 +6,12 @@
   "author": "PeterF521 <pedrofelgueiras2006@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "mongodb": "^4.1.0",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "ts-node-dev": "^1.1.8"
   }
 }

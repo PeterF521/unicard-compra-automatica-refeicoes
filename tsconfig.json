@@ -2,6 +2,8 @@
     "compilerOptions": {
         "allowJs": true,
         "target": "ES6",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
         "strict": true,
         "strictPropertyInitialization": false,
         "outDir": "./dist",
@@ -11,6 +13,6 @@
         "src/**/*.ts"
     ],
     "exclude": [
-        "node_modules/"
+        // "node_modules/"
     ]
 }

@@ -1,3 +1,5 @@
+import { IJwtTokenManagerConfig } from "../common/IJwtTokenManagerConfig";
+
 export interface IJwtTokenManager {
     /**
      * Generate JWT token
@@ -17,5 +19,5 @@ export interface IJwtTokenManager {
     /**
      * Gets JWT tokens configuration
      */
-    get config(): IJwtTokenManager;
+    get config(): IJwtTokenManagerConfig;
 }
